@@ -1,0 +1,25 @@
+{
+  //paquete o dependencia que cambia de typescrit en JS y compilado por eslint
+  "parser": "@typescript-eslint/parser",
+  "extends": [ //extender reglas para ver hasta donde se 
+    "airbnb-base",
+    "airbnb-typescript/base",// aplica las reglas de estilo populares de JS
+    "eslint:recommended", //toma las reglas de JS y las aplica en TypeScript
+    "plugin:@typescript-eslint/recommended"// ⬆️ ...
+  ],
+  "parserOptions": { //opciones de como parseamos  
+    "project": "./tsconfig.json", //parsea las opciones a lo que tuiene que ver el ts.config
+    "tsconfigRootDir": "./",//aplique eso a todos los archivos en src
+    "sourceType": "module" //especifica donde estan los archivos
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "class-methods-use-this": "off",
+    "import/no-extraneous-dependencies": "off",
+    "no-param-reassign": "off",
+    "no-throw-literal": "off",
+    "@typescript-eslint/no-throw-literal": "off",
+    "no-restricted-syntax": "off",
+    "max-len": "off"
+  }
+}

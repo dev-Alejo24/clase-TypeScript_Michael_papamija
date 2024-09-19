@@ -1,0 +1,24 @@
+{
+  "compilerOptions": { //opciones de compilador 
+    "module": "commonjs", //modulo comun de node js
+    "removeComments": true, //remueve comentarios a la hora de compilar
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true, //para importar modulos 
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true, //crea maoas
+    "target": "es6",
+    "outDir": "./build",// copia de 'src' pero en JS
+    "baseUrl": "./",
+    "resolveJsonModule": true,
+    "paths": {
+      "Modules/*": ["src/modules/*"]
+    }
+  },
+  "lib": ["es2015"], //usa la version 2015
+  "include": ["src/**/*.ts"], //toma todos los archivos de la carpeta src y los compila 
+  "exclude": [
+    "node_modules/**/*", //excluye todos los archivos de la carpeta module-node
+    ".vscode/**/*" //exvluye cosas de vs code
+  ]
+}
