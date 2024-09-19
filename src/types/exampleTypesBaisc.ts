@@ -2,6 +2,9 @@
 let breedDog: String = 'Raza';
 console.log(breedDog, 'Breed01'); //alias de la raza del perro
 
+let userStudent: any = 'StudentItp';
+console.log(userStudent, 'fdhst'); 
+
 //numero de estudiante 
 let studentCount: number = 25;
 console.log('Student Count:', studentCount);  

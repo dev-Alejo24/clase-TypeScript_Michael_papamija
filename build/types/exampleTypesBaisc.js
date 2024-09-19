@@ -1,8 +1,10 @@
 let breedDog = 'Raza';
 console.log(breedDog, 'Breed01');
+let userStudent = 'StudentItp';
+console.log(userStudent, 'fdhst');
 let studentCount = 25;
 console.log('Student Count:', studentCount);
-let studentName = 'Michhael';
+let studentName = 'Michael';
 console.log('student name: ', studentName);
 let isEnrolled;
 console.log(isEnrolled, true);
