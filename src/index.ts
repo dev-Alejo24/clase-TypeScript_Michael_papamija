@@ -1,1 +1,2 @@
-import "./types/exampleTypesBaisc"; //importa de la carpeta 'types' el archivo 'exampleTypes'
+// Importa de la carpeta 'types' el archivo 'exampleTypes'
+import './types/exampleTypesBaisc';
