@@ -6,16 +6,17 @@
     "allowSyntheticDefaultImports": true, //para importar modulos 
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "sourceMap": true, //crea maoas
+    "sourceMap": true, //crea mapas
     "target": "es6",
     "outDir": "./build",// copia de 'src' pero en JS
     "baseUrl": "./",
     "resolveJsonModule": true,
     "paths": {
       "Modules/*": ["src/modules/*"]
-    }
+    },
+    "lib": ["es2016","dom"], //usa la version 2016 motor ES7
   },
-  "lib": ["es2015"], //usa la version 2015
+  
   "include": ["src/**/*.ts"], //toma todos los archivos de la carpeta src y los compila 
   "exclude": [
     "node_modules/**/*", //excluye todos los archivos de la carpeta module-node

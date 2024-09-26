@@ -21,6 +21,10 @@
     "no-throw-literal": "off",
     "@typescript-eslint/no-throw-literal": "off",
     "no-restricted-syntax": "off",
-    "max-len": "off"
+    "max-len": "off",
+    "@typescript-eslint/no-inferrable-types": "off", // no da redundancia al tipar los datos
+    "@typescript-eslint/no-explicit-any": "off", // permite  el any
+    "init-declarations": ["error", "never"], //para desabilitar inicializacion en las tuplas
+    "quotes": ["error", "single"] // solo permite comillas simples
   }
 }
