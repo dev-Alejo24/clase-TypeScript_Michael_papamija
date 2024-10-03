@@ -93,11 +93,13 @@ let car: {make: string, model: string, year: number} = {
     year: 2020
 };
  // sin ttipado se quita la primer llave
-let animals:{name:string, age: number, status:boolean} = {
+const animals:{name:string, age: number, status:boolean} = {
     name: 'rex',
     age: 2020,
     status: false
 };
+
+
 
 // null y undefined
 let nothing : any = null; //valor por defecto que se puede cambiar

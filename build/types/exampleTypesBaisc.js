@@ -68,7 +68,7 @@ let car = {
     model: 'Camry',
     year: 2020
 };
-let animals = {
+const animals = {
     name: 'rex',
     age: 2020,
     status: false
