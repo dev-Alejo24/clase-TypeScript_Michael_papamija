@@ -25,6 +25,8 @@
     "@typescript-eslint/no-inferrable-types": "off", // no da redundancia al tipar los datos
     "@typescript-eslint/no-explicit-any": "off", // permite  el any
     "init-declarations": ["error", "never"], //para desabilitar inicializacion en las tuplas
-    "quotes": ["error", "single"] // solo permite comillas simples
+    "quotes": ["error", "single"], // solo permite comillas simples
+    "max-classes-per-file": "off", // permite varias clases en un solo archivo
+    "@typescript-eslint/indent": "off" // quita el espaciado especifico del lenguaje
   }
 }

@@ -5,28 +5,29 @@ numberOne.push(6);
 console.log(numberOne);
 numberOne.pop();
 const indexNumber = numberOne.indexOf(3);
-console.log(numberOne, 'numberone');
+console.log(numberOne, 'numberone', indexNumber);
 const indexString = stringOne.indexOf('1');
 console.log(indexString, 'indexString');
 const sliceNumber = numberOne.slice(1, 4);
+console.log(sliceNumber, 'sliceNumber');
 const square = numbers.map((item) => item * 2);
 const evenNumber = numbers.filter((num) => num % 2 === 0);
 const coin = [
     {
         id: 1,
         name: 'pesos',
-        code: 'COP'
+        code: 'COP',
     },
     {
         id: 2,
         name: 'dolar',
-        code: 'USD'
+        code: 'USD',
     },
     {
         id: 3,
         name: 'ecua',
-        code: 'USD'
-    }
+        code: 'USD',
+    },
 ];
 const coinFilter = coin.filter((coinn) => coinn.code === 'USD');
 console.log(coinFilter, 'coinFiltter');

@@ -14,9 +14,9 @@ const indexNumberSeven = auxNumber.indexOf(7);
 console.log(indexNumberSeven, 'indexNumberSeven');
 const sliceAuxNumber = auxNumber.slice(2, 9);
 console.log(sliceAuxNumber, 'sliceAuxNumber');
-const allGreaterOne = auxNumber.every(num => num > 1);
+const allGreaterOne = auxNumber.every((num) => num > 1);
 console.log(allGreaterOne, 'allGreaterOne');
-const anyGreaterOrEqualSeven = auxNumber.some(num => num >= 7);
+const anyGreaterOrEqualSeven = auxNumber.some((num) => num >= 7);
 console.log(anyGreaterOrEqualSeven, 'anyGreaterOrEqualSeven');
 const auxString = ['1', '2', '3', '4', '5', '6', '7'];
 auxString.push('10');
@@ -53,7 +53,7 @@ const anyProducts = [
         name: 'atun',
         price: 2500,
         priceDiscont: 1500,
-    }
+    },
 ];
 const filterPrice = anyProducts.filter((p) => p.price > 900);
 console.log(filterPrice, 'filterPrice');
@@ -63,7 +63,6 @@ for (let i = 0; i < anyProducts.length; i++) {
         filterProducts.push(anyProducts[i]);
     }
 }
-;
 console.log(filterProducts, 'filterProducts');
 const foundPrice = anyProducts.find((price) => price.price > 500);
 console.log(foundPrice, 'foundPrice');
@@ -95,7 +94,6 @@ console.log(concatArray, 'concatArray');
 for (let i = 0; i < array02.length; i++) {
     array01.push(array02[i]);
 }
-;
 console.log(array01, 'array01 push array02');
 const sortedArrays = concatArray.sort((a, b) => a - b);
 console.log(sortedArrays, 'sortedArrays');

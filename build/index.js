@@ -1,7 +1,4 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./types/axamplesFunctionsType");
-require("./types/exampleTypeArrays");
-require("./types/exampleTypesBaisc");
-require("./types/examplesTypesClases");
+require("./types/exercicesClassVirtual");
 //# sourceMappingURL=index.js.map
